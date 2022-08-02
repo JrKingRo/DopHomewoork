@@ -15,16 +15,16 @@ if (num >= 10000 && num <= 99999)
 
     else
     {
-        Console.WriteLine(" Число не я вляется полиндромом");
+        Console.WriteLine(" Число не является полиндромом");
     }
 }
 else
 {
     Console.WriteLine(" Error ");
 }
-string Polindrom(int x)
+string Polindrom(int i)
 {
-    if (x / 10000 == x % 10 & (x / 1000) % 10 == (x % 100) / 10)
+    if (i / 10000 == i % 10 & (i / 1000) % 10 == (i % 100) / 10)
     {
         return "является полиндроном";
 
